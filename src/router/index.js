@@ -16,7 +16,7 @@ const routes = [
     redirect: '/index',
     children: [
       { path: '/index', component: Index },
-      { path: '/user/list', component: Users },
+      { path: '/user/list', component: Users }
     ]
   }
 ]
